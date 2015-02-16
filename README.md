@@ -3,7 +3,7 @@ Codes to use ionicons in android textviews
 
 Inspired by https://github.com/liltof/font-awsome-for-android, codes calculated using this script:
 
-    grep "\f" variables.less | awk -F\" '{ print $1 $2 ";</string>" }' | sed 's/\\/\&#x/' | sed 's/@/<string           name=\"icon_/' | sed 's/:\ /\">/' | sed 's/-/_/g'
+    grep "\f" variables.less | awk -F\" '{ print $1 $2 ";</string>" }' | sed 's/\\/\&#x/' | sed 's/@/<string name=\"icon_/' | sed 's/:\ /\">/' | sed 's/-/_/g'
 
 taken from http://www.eldelshell.com/font-awesome-icons-in-android.html.
 
